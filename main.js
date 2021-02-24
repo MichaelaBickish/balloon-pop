@@ -20,7 +20,6 @@ function startGame(){
 
     document.getElementById("game-controls").classList.remove("hidden")
     document.getElementById("main-controls").classList.add("hidden")
-    startClock()
     document.getElementById("scoreboard").classList.add("hidden")
     startClock()
     setTimeout(stopGame, gameLength)
