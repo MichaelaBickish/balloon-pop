@@ -25,6 +25,7 @@ function startGame(){
     setTimeout(stopGame, gameLength)
 }
 
+
 function startClock(){
     timeRemaining = gameLength
     drawClock()
